@@ -10,6 +10,11 @@ Downloaded Eclipse Java EE IDE
 Downloaded & Installed Tomcat 9 & Configured Eclipse to use Tomcat 9
 
 ###To Start
+####Jar
+To run the jar just enter this command:
+java -cp ./string-service.jar ie.gmit.sw.Servant
+as the Servant is nominated as the main class
+####Tomcat
 Go into CMD and navigate to where TomCat is located and run startup.bat within the bin folder.
 Once TomCat is running you can sign in with admin, admin or alternatively add yourself to the tomcat-users.xml near the bottom of the page. Once in TomCat you can then choose to deploy my comparator.war file but if it does not work then drop the war file into webapps on tomcat and once the comparator folder is created then go find the comparator folder within my project - copy it and replace the comparator folder that was created in TomCat with my one then shutdown the server and restart it and it should work.
 
